@@ -2,12 +2,10 @@ import os
 
 import inputs
 from langchain_ollama import ChatOllama
-import streamlit as st
 from langchain.prompts import ChatPromptTemplate, MessagesPlaceholder
 from langchain_core.output_parsers import StrOutputParser, JsonOutputParser
 from langchain.schema.runnable import RunnableLambda
 from langchain_community.chat_message_histories.in_memory import ChatMessageHistory
-from langchain_community.chat_message_histories import StreamlitChatMessageHistory
 from langchain_core.runnables.history import RunnableWithMessageHistory
 from mistralai import Mistral
 
@@ -30,12 +28,12 @@ prompt_template = ChatPromptTemplate.from_messages(
     ]
 )
 
-st.title("Agile Guide")
+print("Agile Guide")
 
 # simple sequential chain
 first_chain = prompt_template | LLM1
 
-history_for_chain = StreamlitChatMessageHistory()
+history_for_chain = ChatMessageHistory()
 
 chain_with_history = RunnableWithMessageHistory(
     first_chain,
@@ -45,14 +43,14 @@ chain_with_history = RunnableWithMessageHistory(
 )
 
 #     question =input["Enter the Question:"]
-# while True:
-input = st.text_input("Enter the Question: ")
-if input:
-    response = chain_with_history.invoke(
-        {"input": input},
-        {"configurable": {"session_id": "abc123"}}
-    )
-    st.write(response.content)
+while True:
+    question = input("Enter the Question: ")
+    if question:
+        response = chain_with_history.invoke(
+            {"input": question},
+            {"configurable": {"session_id": "abc123"}}
+        )
+        print(response.content)
 
-st.write("HISTORY")
-st.write(history_for_chain)
+print("HISTORY")
+print(history_for_chain)

@@ -10,6 +10,7 @@ from langchain_community.chat_message_histories.in_memory import ChatMessageHist
 from langchain_community.chat_message_histories import StreamlitChatMessageHistory
 from langchain_core.runnables.history import RunnableWithMessageHistory
 from mistralai import Mistral
+from streamlit import chat_input
 
 # from langchain.globals import set_debug
 
@@ -44,15 +45,46 @@ chain_with_history = RunnableWithMessageHistory(
     history_messages_key="chat_history"
 )
 
-#     question =input["Enter the Question:"]
-# while True:
-input = st.text_input("Enter the Question: ")
-if input:
+# User input field
+user_input = st.chat_input("Enter your question about Agile...:", key="user_input")
+# user_input = st.chat_input("Enter your question about Agile...")
+# Display chat history in UI
+
+for message in history_for_chain.messages:
+    with st.chat_message(message.type):
+        st.write(message.content)
+
+if user_input:
+    # Display user message in chat
+    with st.chat_message("user"):
+        st.write(user_input)
+
+    # Get model response
     response = chain_with_history.invoke(
-        {"input": input},
+        {"input": user_input},
         {"configurable": {"session_id": "abc123"}}
     )
-    st.write(response.content)
 
-st.write("HISTORY")
-st.write(history_for_chain)
+    # Display model response in chat
+    with st.chat_message("assistant"):
+        st.write(response.content)
+
+    # # Store both user and assistant messages in history
+    # history_for_chain.add_user_message(user_input)
+    # history_for_chain.add_ai_message(response.content)
+
+# Text input for user question
+
+
+#     question =input["Enter the Question:"]
+# while True:
+# input = st.text_input("Enter the Question: ")
+# if input:
+#     response = chain_with_history.invoke(
+#         {"input": input},
+#         {"configurable": {"session_id": "abc123"}}
+#     )
+#     st.write(response.content)
+#
+# st.write("HISTORY")
+# st.write(history_for_chain)

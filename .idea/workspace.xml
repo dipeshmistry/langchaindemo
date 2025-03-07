@@ -1,18 +1,51 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <project version="4">
+  <component name="AutoImportSettings">
+    <option name="autoReloadType" value="SELECTIVE" />
+  </component>
   <component name="ChangeListManager">
-    <list default="true" id="4c571e43-e617-4de1-abf6-e3c3e1a12bcc" name="Changes" comment="" />
+    <list default="true" id="4c571e43-e617-4de1-abf6-e3c3e1a12bcc" name="Changes" comment="">
+      <change afterPath="$PROJECT_DIR$/.idea/inspectionProfiles/profiles_settings.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/langchaindemo.iml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/modules.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/vcs.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/BASICS/gemma_demo.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/BASICS/mistralai_demo.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/CHAINS/Marketing_Manager_multiple_llms_demo.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/CHAINS/multiple_llms_demo.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/CHAINS/simple_sequential_chain_assignment_blog_post.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/CHAINS/simple_sequential_chain_demo.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/CHAT_HISTORY/Agile_ChatBot.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/CHAT_HISTORY/chathistory_demo.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/CHAT_HISTORY/chatprompt_template_demo.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/EMBEDDINGS/embeddings_demo.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/EMBEDDINGS/embeddings_demo1.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/PROMPT_TEMPLATES/interview_helper_mistralai_demo.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/PROMPT_TEMPLATES/prompttemplate_streamlit_gemma_demo.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/PROMPT_TEMPLATES/prompttemplate_streamlit_mistralai_demo.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/PROMPT_TEMPLATES/streamlit_mistralai_demo.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/PROMPT_TEMPLATES/travelguid_mistralai_demo.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/PROMPT_TEMPLATES/travelguid_ollama_demo.py" afterDir="false" />
+    </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
     <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
     <option name="LAST_RESOLUTION" value="IGNORE" />
   </component>
+  <component name="FileTemplateManagerImpl">
+    <option name="RECENT_TEMPLATES">
+      <list>
+        <option value="Python Script" />
+      </list>
+    </option>
+  </component>
   <component name="Git.Settings">
     <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$" />
   </component>
-  <component name="ProjectColorInfo"><![CDATA[{
-  "associatedIndex": 2
-}]]></component>
+  <component name="ProjectColorInfo">{
+  &quot;associatedIndex&quot;: 2
+}</component>
   <component name="ProjectId" id="2teiCnncRIQwiNDQAGzViYrtkeo" />
   <component name="ProjectLevelVcsManager" settingsEditedManually="true" />
   <component name="ProjectViewState">
@@ -21,11 +54,152 @@
   </component>
   <component name="PropertiesComponent"><![CDATA[{
   "keyToString": {
+    "Python.chathistory_demo.executor": "Run",
+    "Python.embeddings_demo1.executor": "Run",
+    "Python.gemma_demo.executor": "Run",
+    "Python.mistralai_demo.executor": "Run",
+    "Python.openai_demo.executor": "Run",
     "RunOnceActivity.ShowReadmeOnStart": "true",
+    "RunOnceActivity.git.unshallow": "true",
     "dart.analysis.tool.window.visible": "false",
-    "git-widget-placeholder": "master"
+    "git-widget-placeholder": "master",
+    "last_opened_file_path": "D:/Projects/AI & ML/test/langchaindemo/EMBEDDINGS",
+    "settings.editor.selected.configurable": "com.jetbrains.python.configuration.PyActiveSdkModuleConfigurable"
   }
 }]]></component>
+  <component name="RecentsManager">
+    <key name="CopyFile.RECENT_KEYS">
+      <recent name="D:\Projects\AI &amp; ML\test\langchaindemo\EMBEDDINGS" />
+      <recent name="D:\Projects\AI &amp; ML\test\langchaindemo\CHAT_HISTORY" />
+      <recent name="D:\Projects\AI &amp; ML\test\langchaindemo" />
+    </key>
+    <key name="MoveFile.RECENT_KEYS">
+      <recent name="D:\Projects\AI &amp; ML\test\langchaindemo\PROMPT_TEMPLATES" />
+      <recent name="D:\Projects\AI &amp; ML\test\langchaindemo\CHAINS" />
+      <recent name="D:\Projects\AI &amp; ML\test\langchaindemo\BASICS" />
+    </key>
+  </component>
+  <component name="RunManager" selected="Python.embeddings_demo1">
+    <configuration name="chathistory_demo" type="PythonConfigurationType" factoryName="Python" temporary="true" nameIsGenerated="true">
+      <module name="langchaindemo" />
+      <option name="ENV_FILES" value="" />
+      <option name="INTERPRETER_OPTIONS" value="" />
+      <option name="PARENT_ENVS" value="true" />
+      <envs>
+        <env name="PYTHONUNBUFFERED" value="1" />
+      </envs>
+      <option name="SDK_HOME" value="" />
+      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$/CHAT_HISTORY" />
+      <option name="IS_MODULE_SDK" value="true" />
+      <option name="ADD_CONTENT_ROOTS" value="true" />
+      <option name="ADD_SOURCE_ROOTS" value="true" />
+      <option name="SCRIPT_NAME" value="$PROJECT_DIR$/CHAT_HISTORY/chathistory_demo.py" />
+      <option name="PARAMETERS" value="" />
+      <option name="SHOW_COMMAND_LINE" value="false" />
+      <option name="EMULATE_TERMINAL" value="false" />
+      <option name="MODULE_MODE" value="false" />
+      <option name="REDIRECT_INPUT" value="false" />
+      <option name="INPUT_FILE" value="" />
+      <method v="2" />
+    </configuration>
+    <configuration name="embeddings_demo1" type="PythonConfigurationType" factoryName="Python" temporary="true" nameIsGenerated="true">
+      <module name="langchaindemo" />
+      <option name="ENV_FILES" value="" />
+      <option name="INTERPRETER_OPTIONS" value="" />
+      <option name="PARENT_ENVS" value="true" />
+      <envs>
+        <env name="PYTHONUNBUFFERED" value="1" />
+      </envs>
+      <option name="SDK_HOME" value="" />
+      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$/EMBEDDINGS" />
+      <option name="IS_MODULE_SDK" value="true" />
+      <option name="ADD_CONTENT_ROOTS" value="true" />
+      <option name="ADD_SOURCE_ROOTS" value="true" />
+      <option name="SCRIPT_NAME" value="$PROJECT_DIR$/EMBEDDINGS/embeddings_demo1.py" />
+      <option name="PARAMETERS" value="" />
+      <option name="SHOW_COMMAND_LINE" value="false" />
+      <option name="EMULATE_TERMINAL" value="false" />
+      <option name="MODULE_MODE" value="false" />
+      <option name="REDIRECT_INPUT" value="false" />
+      <option name="INPUT_FILE" value="" />
+      <method v="2" />
+    </configuration>
+    <configuration name="gemma_demo" type="PythonConfigurationType" factoryName="Python" temporary="true" nameIsGenerated="true">
+      <module name="langchaindemo" />
+      <option name="ENV_FILES" value="" />
+      <option name="INTERPRETER_OPTIONS" value="" />
+      <option name="PARENT_ENVS" value="true" />
+      <envs>
+        <env name="PYTHONUNBUFFERED" value="1" />
+      </envs>
+      <option name="SDK_HOME" value="" />
+      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$" />
+      <option name="IS_MODULE_SDK" value="true" />
+      <option name="ADD_CONTENT_ROOTS" value="true" />
+      <option name="ADD_SOURCE_ROOTS" value="true" />
+      <option name="SCRIPT_NAME" value="D:\Projects\AI &amp; ML\test\langchaindemo\BASICS\gemma_demo.py" />
+      <option name="PARAMETERS" value="" />
+      <option name="SHOW_COMMAND_LINE" value="false" />
+      <option name="EMULATE_TERMINAL" value="false" />
+      <option name="MODULE_MODE" value="false" />
+      <option name="REDIRECT_INPUT" value="false" />
+      <option name="INPUT_FILE" value="" />
+      <method v="2" />
+    </configuration>
+    <configuration name="mistralai_demo" type="PythonConfigurationType" factoryName="Python" temporary="true" nameIsGenerated="true">
+      <module name="langchaindemo" />
+      <option name="ENV_FILES" value="" />
+      <option name="INTERPRETER_OPTIONS" value="" />
+      <option name="PARENT_ENVS" value="true" />
+      <envs>
+        <env name="PYTHONUNBUFFERED" value="1" />
+      </envs>
+      <option name="SDK_HOME" value="" />
+      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$" />
+      <option name="IS_MODULE_SDK" value="true" />
+      <option name="ADD_CONTENT_ROOTS" value="true" />
+      <option name="ADD_SOURCE_ROOTS" value="true" />
+      <option name="SCRIPT_NAME" value="D:\Projects\AI &amp; ML\test\langchaindemo\BASICS\mistralai_demo.py" />
+      <option name="PARAMETERS" value="" />
+      <option name="SHOW_COMMAND_LINE" value="false" />
+      <option name="EMULATE_TERMINAL" value="false" />
+      <option name="MODULE_MODE" value="false" />
+      <option name="REDIRECT_INPUT" value="false" />
+      <option name="INPUT_FILE" value="" />
+      <method v="2" />
+    </configuration>
+    <configuration name="openai_demo" type="PythonConfigurationType" factoryName="Python" temporary="true" nameIsGenerated="true">
+      <module name="langchaindemo" />
+      <option name="ENV_FILES" value="" />
+      <option name="INTERPRETER_OPTIONS" value="" />
+      <option name="PARENT_ENVS" value="true" />
+      <envs>
+        <env name="PYTHONUNBUFFERED" value="1" />
+      </envs>
+      <option name="SDK_HOME" value="" />
+      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$" />
+      <option name="IS_MODULE_SDK" value="true" />
+      <option name="ADD_CONTENT_ROOTS" value="true" />
+      <option name="ADD_SOURCE_ROOTS" value="true" />
+      <option name="SCRIPT_NAME" value="D:\Projects\AI &amp; ML\test\langchaindemo\BASICS\openai_demo.py" />
+      <option name="PARAMETERS" value="" />
+      <option name="SHOW_COMMAND_LINE" value="false" />
+      <option name="EMULATE_TERMINAL" value="false" />
+      <option name="MODULE_MODE" value="false" />
+      <option name="REDIRECT_INPUT" value="false" />
+      <option name="INPUT_FILE" value="" />
+      <method v="2" />
+    </configuration>
+    <recent_temporary>
+      <list>
+        <item itemvalue="Python.embeddings_demo1" />
+        <item itemvalue="Python.chathistory_demo" />
+        <item itemvalue="Python.gemma_demo" />
+        <item itemvalue="Python.mistralai_demo" />
+        <item itemvalue="Python.openai_demo" />
+      </list>
+    </recent_temporary>
+  </component>
   <component name="SharedIndexes">
     <attachedChunks>
       <set>
@@ -43,5 +217,24 @@
       <updated>1740718815264</updated>
     </task>
     <servers />
+  </component>
+  <component name="XDebuggerManager">
+    <breakpoint-manager>
+      <breakpoints>
+        <line-breakpoint enabled="true" suspend="THREAD" type="python-line">
+          <url>file://$PROJECT_DIR$/PROMPT_TEMPLATES/travelguid_ollama_demo.py</url>
+          <option name="timeStamp" value="2" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" suspend="THREAD" type="python-line">
+          <url>file://$PROJECT_DIR$/CHAINS/simple_sequential_chain_demo.py</url>
+          <option name="timeStamp" value="3" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" suspend="THREAD" type="python-line">
+          <url>file://$PROJECT_DIR$/EMBEDDINGS/embeddings_demo.py</url>
+          <line>2</line>
+          <option name="timeStamp" value="6" />
+        </line-breakpoint>
+      </breakpoints>
+    </breakpoint-manager>
   </component>
 </project>

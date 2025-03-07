@@ -1,21 +1,15 @@
-
-
 import os
 from mistralai import Mistral
 
-api_key = os.getenv("MISTRAL_API_KEY")
-print(api_key)
-model = "mistral-large-latest"
+api_key = os.environ["MISTRAL_API_KEY"]
+model = "mistral-embed"
 
 client = Mistral(api_key=api_key)
-question = input("Type Your Question :   ")
-chat_response = client.chat.complete(
-    model= model,
-    messages = [
-        {
-            "role": "user",
-            "content": question,
-        },
-    ]
+
+input = input("Enter a text.")
+
+embeddings_batch_response = client.embeddings.create(
+    model=model,
+    inputs=[input],
 )
-print(chat_response.choices[0].message.content)
+print(embeddings_batch_response.data[0].embedding)

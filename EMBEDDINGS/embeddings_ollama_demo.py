@@ -1,21 +1,8 @@
-
-
 import os
-from mistralai import Mistral
+from langchain_ollama import OllamaEmbeddings
 
-api_key = os.getenv("MISTRAL_API_KEY")
-print(api_key)
-model = "mistral-large-latest"
+embedding_model = OllamaEmbeddings(model="llama3.2")
 
-client = Mistral(api_key=api_key)
-question = input("Type Your Question :   ")
-chat_response = client.chat.complete(
-    model= model,
-    messages = [
-        {
-            "role": "user",
-            "content": question,
-        },
-    ]
-)
-print(chat_response.choices[0].message.content)
+text = input("Enter the text")
+response = embedding_model.embed_query(text)
+print(response)
